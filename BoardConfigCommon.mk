@@ -31,8 +31,9 @@ TARGET_SPECIFIC_HEADER_PATH += device/samsung/d2-common/include
 TARGET_BOOTLOADER_BOARD_NAME := MSM8960
 
 # Kernel
-TARGET_KERNEL_CONFIG        := lineageos_d2_defconfig
+TARGET_KERNEL_CONFIG := lineageos_d2_defconfig
 BOARD_KERNEL_IMAGE_NAME := zImage
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Audio
 BOARD_HAVE_AUDIENCE_A2220 := true
