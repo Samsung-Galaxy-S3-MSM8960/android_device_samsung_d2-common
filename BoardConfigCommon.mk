@@ -22,6 +22,14 @@
 # definition file).
 #
 
+DEVICE_PATH := device/samsung/d2att
+
+TARGET_ARCH := arm 
+TARGET_ARCH_VARIANT := armv7-a-neon
+TARGET_CPU_ABI := armeabi-v7a   
+TARGET_CPU_ABI2 := armeabi                  
+TARGET_CPU_VARIANT := krait             
+
 # inherit from common msm8960
 -include device/samsung/msm8960-common/BoardConfigCommon.mk
 
